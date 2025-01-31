@@ -6,11 +6,7 @@ const port = process.env.PORT;
 
 const app = express();
 
-const basic = {
-  email: process.env.EMAIL,
-  current_datetime: `${new Date().toISOString()}`,
-  github_url: process.env.GITHUBREPO,
-};
+//
 app.use(cors());
 app.get("/", (req, res) => {
   return res.status(200).json({ massage: "Basic Information" });
@@ -18,8 +14,9 @@ app.get("/", (req, res) => {
 
 app.get("/basic_info", (req, res) => {
   return res.status(200).json({
-    // massage: "Basic Info",
-    basic,
+    email: process.env.EMAIL,
+    current_datetime: `${new Date().toISOString()}`,
+    github_url: process.env.GITHUBREPO,
   });
 });
 
