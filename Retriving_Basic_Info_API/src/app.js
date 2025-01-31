@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 app.get("/basic_info", (req, res) => {
   return res.status(200).json({
     // massage: "Basic Info",
-    data: basic,
+    basic,
   });
 });
 
