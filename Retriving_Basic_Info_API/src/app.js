@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 app.get("/basic_info", (req, res) => {
   return res.status(200).json({
     email: process.env.EMAIL,
-    datetime: `${new Date().toString()}`,
+    datetime: `${new Date().toISOString()}`,
     github_url: process.env.GITHUBREPO,
   });
 });
