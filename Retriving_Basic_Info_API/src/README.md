@@ -20,7 +20,7 @@ Before you begin, ensure you have **Node.js** installed.
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/Kosisochi1/HNG_INTERNSHIP.git
 cd project-name
 ```
 
@@ -59,7 +59,7 @@ npm install
 To use this API, simply send a GET request on tool like postman
 
 ### HNG Node js
-[HNG Node js] (https://hng.tech/hire/nodejs-developers "HNG Node js")
+**[HNG Node js] (https://hng.tech/hire/nodejs-developers)
 
 
 
