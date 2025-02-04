@@ -59,7 +59,7 @@ npm install
 To use this API, simply send a GET request on tool like postman
 
 ### HNG Node js
-**[HNG Node js] (https://hng.tech/hire/nodejs-developers)**
+**[HNG Node js](https://hng.tech/hire/nodejs-developers)**
 
 
 
